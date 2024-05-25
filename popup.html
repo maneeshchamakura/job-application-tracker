@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Application Counter</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Job Application Counter</h1>
+    <div class="text-center">
+      <button id="increment" class="btn btn-success">+</button>
+      <span id="counter" class="counter">0</span>
+      <button id="decrement" class="btn btn-danger">-</button>
+    </div>
+    <div class="text-center mt-3">
+      <button id="history" class="btn btn-primary">Quick History</button>
+    </div>
+    <div id="history-list" class="mt-3"></div>
+    <div class="text-center mt-3">
+      <button id="openNewPageButton" class="btn btn-info">Full History</button>
+    </div>    
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

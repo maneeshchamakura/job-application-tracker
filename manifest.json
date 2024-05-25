@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Job Application Counter",
+    "version": "1.0",
+    "description": "Counts the number of job applications per day",
+    "permissions": ["storage", "activeTab", "scripting","tabs", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/jobs.png"
+    },
+    "commands": {
+        "name-of-command-passed-into-function": {
+          "suggested_key": "Ctrl+Shift+Q",
+          "description": "do somthing"
+        },
+        "increment": {
+          "suggested_key": "Alt+A",
+          "description": "increment counter"
+        },
+        "decrement": {
+            "suggested_key": "Alt+R",
+            "description": "decrement counter"
+        }
+    }
+  }
+  
